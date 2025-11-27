@@ -89,7 +89,6 @@ export const lgammaSeries = [
 ]
 
 export function lgammaNumber (n) {
-  if (n < 0) return NaN
   if (n === 0) return Infinity
   if (!Number.isFinite(n)) return n
 
